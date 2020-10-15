@@ -1,0 +1,50 @@
+/* BARRA DE NAVEGACIÓN */
+
+#navegacion{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav{
+    background-color: #343A40;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+nav ul:nth-child(1) li:nth-child(1){
+    font-size: 1.5rem;
+}
+
+nav ul:nth-child(1) li:nth-child(1) a{
+    color: white
+}
+
+nav ul li button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white; 
+    border: 1px solid white;
+}
+
+nav ul li button:hover{
+    background-color: white;
+    color: #343A40
+}
