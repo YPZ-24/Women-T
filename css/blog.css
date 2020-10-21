@@ -41,10 +41,6 @@ main{
     border-radius: 6px;
 }
 
-.card-container:hover{
-    background-color: pink;
-}
-
 .card img{
     position: relative;
     width: 100%;
@@ -62,12 +58,12 @@ main{
     justify-content: center;
     text-align: center;
     padding: 15px;
-    background-color: rgba(252, 64, 67, 0.6);
-    border: 1px solid rgba(252, 64, 67);
+    background-color: rgba(27, 216, 255, 0.6);
+    border: 1px solid rgba(27, 216, 255);
 }
 
 .card-container:hover{
-    background-color: rgba(252, 64, 67, 0.8);
+    background-color: rgba(27, 216, 255, 0.8);
     cursor: pointer
 }
 

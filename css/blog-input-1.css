@@ -1,0 +1,45 @@
+/* CARRUCEL */
+
+.carrucel-txt{
+    text-align: justify;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.carrucel-nombre{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/*TARJETAS*/
+
+.tarjeta{
+    display: none;
+}
+
+.opc:checked + .tarjeta{
+    display: block;
+}
+
+#carrucel-control{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#carrucel-control label{
+    padding: 0px 5px 0px 5px;
+    font-size: 40px;
+    color: grey
+}
+
+#carrucel-control label:hover{
+    cursor: pointer;
+}
