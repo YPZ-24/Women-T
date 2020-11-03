@@ -16,7 +16,9 @@ h1{
 
 span{
     font-family: 'Staatliches';
-    color: rgb(162, 21, 202);
+    background-color: #1A1A1A;
+    color: white;
+    padding: 0px 10px 0px 10px;
 }
 
 /* QUE SUCEDIO */

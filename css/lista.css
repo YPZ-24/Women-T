@@ -1,0 +1,97 @@
+body{
+    overflow-x: hidden;
+}
+
+/* IMAGEN */
+img{
+    position: fixed;
+    z-index: -100;
+    width: 100vw;
+    height: 100vh;
+    filter: grayscale();
+}
+
+
+/* TABLA */
+
+#tabla{
+    background-color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+tr{
+    height: 35px;
+}
+
+thead{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #e0e0e0;
+}
+
+tbody tr:hover{
+    background-color: #c7c6c6;
+}
+
+tfoot tr th:first-child{
+    background-color: #c7c6c6;
+}
+
+/* NEWSLETTER */
+section{
+    padding: 30px;
+}
+
+#nl{
+    background-color: #1A1A1A;
+    color: white;
+    margin: 50px 0px 50px 0px;
+}
+
+section{
+    text-align: center;
+}
+
+#nl-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#nl-form input[type="email"]{
+    padding: 10px 15px;
+    border: 0px;
+    font-size: 1rem;
+}
+
+#nl-form input[type="submit"]{
+    font-size: 1rem;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+}
+
+#nl-form input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+#nl-form input{
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+#nl-form input:hover{
+    border-radius: 0px;
+}
